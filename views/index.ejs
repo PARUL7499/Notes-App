@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotesApp - Parul</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-hidden">
+    <main class="min-h-screen w-full bg-slate-900 p-10">
+
+
+        <h1 class="text-white mb-10 text-3xl font-semibold">Create Notes</h1>
+
+
+        <form action="/create" method="post">
+
+            <input class="block w-full mb-2 px-2 py-3 rounded-md" type="text" name="title" placeholder="Title goes here">
+            
+            <input class="block w-full mb-2 px-2 py-3 rounded-md" type="text" name="description" placeholder="description">
+            <input class="text-white bg-blue-500 px-4 py-2 rounded-lg font-semibold hover:bg-blue-600" type="submit" value="Create Note">
+        </form>
+
+        <div class="flex gap-3">
+    
+        
+        <footer class="text-zinc-300 absolute bottom-0 w-full text-center">Notes Taking App - Tiwariji</footer>
+    </main>
+</body>
+</html>
